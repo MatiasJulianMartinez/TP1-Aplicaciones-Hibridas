@@ -41,7 +41,6 @@ Los Funko Pop! son figuras de vinilo coleccionables creadas por la empresa Funko
 2. Instalar dependencias:
 ```
       npm install
-
 ```
 
 4. Crear archivo .env con las siguientes variables:
