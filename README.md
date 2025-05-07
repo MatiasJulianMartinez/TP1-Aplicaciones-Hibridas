@@ -49,6 +49,10 @@ MONGODB_URI= " Uri de Mongodb "
 PORT=3000
 SECRET_KEY=mi_clave_secreta
 ```
+5. Iniciar el servidor:
+```
+npm start
+```
 
 ## 📘 Manual de Uso de la API
 
@@ -67,8 +71,5 @@ Para utilizar las rutas protegidas de la API (como Funko y Categorías), siga es
 
 Una vez autenticado, podrá acceder y probar todas las rutas protegidas correctamente.
 
-5. Iniciar el servidor:
-```
-npm start
-```
+
 
