@@ -50,6 +50,23 @@ PORT=3000
 SECRET_KEY=mi_clave_secreta
 ```
 
+## 📘 Manual de Uso de la API
+
+Para utilizar las rutas protegidas de la API (como Funko y Categorías), siga estos pasos:
+
+1. **Registrarse** en la ruta correspondiente (`/api/users/register`).
+2. **Iniciar sesión** en `/api/users/login` con su email y contraseña.
+
+   Esto le devolverá un **token JWT**.
+
+3. Copie el token recibido y colóquelo en **Thunder Client** (o Postman):
+
+   - Vaya a la pestaña **Auth**.
+   - Seleccione el tipo **Bearer Token**.
+   - Pegue el token en el campo correspondiente.
+
+Una vez autenticado, podrá acceder y probar todas las rutas protegidas correctamente.
+
 5. Iniciar el servidor:
 ```
 npm start
