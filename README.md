@@ -29,25 +29,29 @@ Los Funko Pop! son figuras de vinilo coleccionables creadas por la empresa Funko
 - JWT para autenticación
 - ES Modules para importación/exportación
 
-## Guia para instalar el proyecto
+## 🛠️ Guía para instalar el proyecto
 
 1. Clonar el repositorio:
-
-git clone repo de github
- 
+   ```
+  git clone https://github.com/MatiasJulianMartinez/TP1-Aplicaciones-Hibridas.git
+  cd TP1-Aplicaciones-Hibridas
+   ```
 
 2. Instalar dependencias:
+   ```
+   npm install
 
-   npm install  ( Para que instale dependencias del package.json)
+   ```
 
-
-3. Crear Archivo .env
-
-- MONGODB_URI , PORT , SECRET_KEY.
-- Clave jwt = "mi_clave_secreta"
-
+3. Crear archivo .env:
+   ```
+   MONGODB_URI= " Uri de Mongodb "
+   PORT=3000
+   SECRET_KEY=mi_clave_secreta
+   ```
 
 4. Iniciar el servidor:
-  
+   ```
    npm start
+   ```
 
