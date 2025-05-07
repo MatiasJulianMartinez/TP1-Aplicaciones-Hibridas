@@ -38,7 +38,7 @@ Los Funko Pop! son figuras de vinilo coleccionables creadas por la empresa Funko
   cd TP1-Aplicaciones-Hibridas
    
 
-3. Instalar dependencias:
+2. Instalar dependencias:
 ```
       npm install
 
