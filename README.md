@@ -31,6 +31,7 @@ Los Funko Pop! son figuras de vinilo coleccionables creadas por la empresa Funko
 
 ## 🛠️ Guía para instalar el proyecto
 
+
 1. Clonar el repositorio:
    ```
   git clone https://github.com/MatiasJulianMartinez/TP1-Aplicaciones-Hibridas.git
@@ -39,11 +40,11 @@ Los Funko Pop! son figuras de vinilo coleccionables creadas por la empresa Funko
 
 2. Instalar dependencias:
    ```
-   npm install
+      npm install
 
    ```
 
-3. Crear archivo .env:
+3. Crear archivo .env con las siguientes variables:
    ```
    MONGODB_URI= " Uri de Mongodb "
    PORT=3000
